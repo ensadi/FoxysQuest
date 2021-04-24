@@ -2820,8 +2820,8 @@ return
         <HotspotY>0</HotspotY>
         <StandardMode>True</StandardMode>
         <Image>76</Image>
-        <View>0</View>
-        <Animate>False</Animate>
+        <View>10</View>
+        <Animate>True</Animate>
         <AnimateOnlyOnHotspots>False</AnimateOnlyOnHotspots>
         <AnimateOnlyWhenMoving>False</AnimateOnlyWhenMoving>
         <Name xml:space="preserve">Walk to</Name>
@@ -6020,6 +6020,101 @@ return
               </Sprite>
             </Sprites>
           </SpriteFolder>
+          <SpriteFolder Name="Animated Cursors">
+            <SubFolders />
+            <Sprites>
+              <Sprite Slot="78" Width="27" Height="24" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>Sprites/foxywalkcursoranimated.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>24</ImportHeight>
+                  <ImportWidth>27</ImportWidth>
+                  <ImportAsTile>True</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>TopLeft</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="79" Width="27" Height="24" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>Sprites/foxywalkcursoranimated.png</FileName>
+                  <OffsetX>27</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>24</ImportHeight>
+                  <ImportWidth>27</ImportWidth>
+                  <ImportAsTile>True</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>TopLeft</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="80" Width="27" Height="24" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>Sprites/foxywalkcursoranimated.png</FileName>
+                  <OffsetX>54</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>24</ImportHeight>
+                  <ImportWidth>27</ImportWidth>
+                  <ImportAsTile>True</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>TopLeft</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="81" Width="27" Height="14" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>Sprites/foxywalkcursoranimated.png</FileName>
+                  <OffsetX>0</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>14</ImportHeight>
+                  <ImportWidth>27</ImportWidth>
+                  <ImportAsTile>True</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>TopLeft</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="82" Width="27" Height="14" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>Sprites/foxywalkcursoranimated.png</FileName>
+                  <OffsetX>27</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>14</ImportHeight>
+                  <ImportWidth>27</ImportWidth>
+                  <ImportAsTile>True</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>TopLeft</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+              <Sprite Slot="83" Width="27" Height="14" ColorDepth="32" Resolution="Real" AlphaChannel="True">
+                <Source>
+                  <FileName>Sprites/foxywalkcursoranimated.png</FileName>
+                  <OffsetX>54</OffsetX>
+                  <OffsetY>0</OffsetY>
+                  <ImportHeight>14</ImportHeight>
+                  <ImportWidth>27</ImportWidth>
+                  <ImportAsTile>True</ImportAsTile>
+                  <Frame>0</Frame>
+                  <RemapToGamePalette>False</RemapToGamePalette>
+                  <RemapToRoomPalette>False</RemapToRoomPalette>
+                  <ImportMethod>TopLeft</ImportMethod>
+                  <ImportAlphaChannel>True</ImportAlphaChannel>
+                </Source>
+              </Sprite>
+            </Sprites>
+          </SpriteFolder>
         </SubFolders>
         <Sprites>
           <Sprite Slot="0" Width="10" Height="6" ColorDepth="32" Resolution="Real" AlphaChannel="False">
@@ -6972,6 +7067,39 @@ return
                   <ViewFrame>
                     <ID>0</ID>
                     <Image>49</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                </Frames>
+              </Loop>
+            </Loops>
+          </View>
+          <View>
+            <ID>10</ID>
+            <Name>vFMWalkCursor</Name>
+            <Loops>
+              <Loop>
+                <ID>0</ID>
+                <RunNextLoop>False</RunNextLoop>
+                <Frames>
+                  <ViewFrame>
+                    <ID>0</ID>
+                    <Image>81</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>1</ID>
+                    <Image>82</Image>
+                    <Flipped>False</Flipped>
+                    <Delay>0</Delay>
+                    <Sound>0</Sound>
+                  </ViewFrame>
+                  <ViewFrame>
+                    <ID>2</ID>
+                    <Image>83</Image>
                     <Flipped>False</Flipped>
                     <Delay>0</Delay>
                     <Sound>0</Sound>
